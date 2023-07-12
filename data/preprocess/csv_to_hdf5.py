@@ -147,7 +147,7 @@ def process(out_dir, wirePos, mcPariticle, mdcDigiMc):
 def main():
     rawData_dir = "./data/rawData/pipijpsi"
     out_dir = "./data/HDF5/pipijpsi"
-    wirePos_file = "./data/preprocess/MdcWirePosition.csv"
+    #wirePos_file = "./data/preprocess/MdcWirePosition.csv"
     
     mcPariticle_file =rawData_dir + "/pipijpsi_mcParticle_0.csv"
     mdcDigiMc_file = rawData_dir + "/pipijpsi_mdcDigiMc_0.csv"
